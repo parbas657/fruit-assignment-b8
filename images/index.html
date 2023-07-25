@@ -7,21 +7,61 @@
     <!-- tailwain and daisyui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<!-- google fon -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<!-- font awesome  -->
+<script src="https://kit.fontawesome.com/c293cf83a3.js" crossorigin="anonymous"></script> 
 <!-- for custom color -->
 <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
+            clifford: '#da373d',  
           }
         }
       }
     }
   </script>
   <!-- end end end end -->
+<style>
+  .font-lato{
+    font-family: 'Lato', sans-serif;
+  }
+</style>
+
 </head>
-<body>
-    
+<body class="font-lato">
+    <header>
+
+    </header>
+    <main></main>
+    <!-- footer section start -->
+    <footer class="footer footer-center bg-black text-white p-10   text-base-content rounded">
+      <div class="flex">
+        <img class="w-10 h-12" src="../images/logo.png" alt="">
+        <h1 class="text-3xl font-bold">Fruit Bust</h1>
+      </div>
+      <div class="grid grid-flow-col gap-4 ">
+        <a href="">Home</a>
+        <a href="">About us</a>
+        <a href="">Shop</a>
+        <a href="">All Fruits</a>
+        <a href="">Support</a>
+        <a href="">My Account</a>
+      </div> 
+      <div>
+        <div class="grid grid-flow-col gap-4 ">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-apple"></i>
+        </div>
+      </div> 
+    </footer>
 </body>
 </html>
